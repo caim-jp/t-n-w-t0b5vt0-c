@@ -224,6 +224,7 @@
 
 				});
 
+
 		// Lightbox.
 			$('.gallery.lightbox')
 				.on('click', 'a', function(event) {
@@ -337,5 +338,9 @@
 							}, 275);
 
 						});
+						
+
 
 })(jQuery);
+
+
