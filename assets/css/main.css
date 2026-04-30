@@ -8637,3 +8637,27 @@ input, select, textarea {
         text-align: left !important;
     }
 }
+
+/* 式場案内の画像ではギャラリーの矢印を隠す */
+.access-image-box .forward,
+.access-image-box .backward {
+    display: none !important;
+}
+
+/* 拡大モーダルの全体を最前面に強制する */
+.gallery.lightbox .modal {
+    z-index: 100000 !important;
+}
+
+/* 回答フォームセクションの重なり順をリセットする */
+#rsvp {
+    z-index: auto !important;
+    transform: none !important;
+}
+
+/* 回答フォーム内のボタンや要素が突き抜けないようにする */
+#rsvp * {
+    z-index: 0 !important;
+} 
+    
+}
